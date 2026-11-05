@@ -1,0 +1,12 @@
+:root{--bg:#0b0b0b;--fg:#ededed;--muted:#9a9a9a;--rule:#262626}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Inter","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:680px;margin:0 auto;padding:72px 20px 96px}
+.mark{font-weight:700;letter-spacing:-.02em;font-size:15px;color:var(--muted);text-decoration:none}
+h1{font-size:32px;letter-spacing:-.03em;margin:32px 0 4px}
+.date{color:var(--muted);font-size:14px;margin:0 0 40px}
+h2{font-size:17px;margin:36px 0 8px;letter-spacing:-.01em}
+p,li{color:#cfcfcf}
+a{color:var(--fg)}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted)}
+footer a{color:var(--muted)}
